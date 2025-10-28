@@ -28,14 +28,14 @@
     <meta property="og:description"
         content="Navira Bau GmbH in Berlin bietet professionelle Renovierung, Sanierung und Innenarchitektur für Wohnungen und Häuser. Qualität, Erfahrung und modernes Design.">
     <meta property="og:url" content="https://navirabau.com/">
-    <meta property="og:image" content="https://navirabau.com/assets/navira-bau.jpg">
+    <meta property="og:image" content="https://navirabau.github.io/navirabauwebsite/assets/Open%20Graph.jpg">
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "ConstructionCompany",
           "name": "Navira Bau GmbH",
           "url": "https://navirabau.com",
-          "logo": "https://navirabau.com/assets/logo.png", "image": "https://navirabau.com/assets/navira-bau.jpg", "description": "Navira Bau GmbH in Berlin bietet professionelle Renovierung, Sanierung und Innenarchitektur für Wohnungen und Häuser.",
+          "logo": "https://navirabau.github.io/navirabauwebsite/assets/apple-touch-icon.png", "image": "https://navirabau.github.io/navirabauwebsite/assets/Open%20Graph.jpg", "description": "Navira Bau GmbH in Berlin bietet professionelle Renovierung, Sanierung und Innenarchitektur für Wohnungen und Häuser.",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Goethestraße 17",
@@ -248,6 +248,8 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            overflow: hidden;
+            position: relative;
         }
 
         /* Container for logo and slogan to ensure alignment */
@@ -265,7 +267,7 @@
             display: block;
             position: absolute;
             left: 26.5%; /* center horizontally */
-            top: 23.5%;  /* center vertically */
+            top: 19%;  /* center vertically */
             /* main change here: translateY(-50px) added to start a bit higher */
             transform: translate(0%, -30%) translateY(-50px);
             opacity: 0;         /* start invisible */
@@ -747,6 +749,28 @@
             .footer-content {
                 gap: 20px;
             }
+
+            /* Adjust logo size for mobile */
+            #logo-container {
+                width: 150%;
+                max-width: 580px;
+                height: auto;
+                left: 50%;
+                top: 40%;
+                opacity: 0;
+                filter: blur(15px);
+                transform: translate(-50%, -50%) translateY(-50px);
+            }
+
+            #logo-container.visible {
+                opacity: 1;
+                transform: translate(-50%, -20%);
+                filter: blur(0);
+            }
+
+            #logo-container.scrolled-up {
+                transform: translate(-50%, -40%) translateY(-200px);
+            }
     }
 
         @media (max-width: 600px) {
@@ -809,24 +833,6 @@
                 gap: 15px;
             }
 
-            /* Adjust logo size for mobile */
-            #logo-container {
-                width: 150%;
-                max-width: 580px;
-                height: auto;
-                left: 50%;
-                top: 45%;
-                opacity: 0;
-                filter: blur(15px);
-                transform: translate(-50%, -50%) translateY(-50px);
-            }
-
-            #logo-container.visible {
-                opacity: 1;
-                transform: translate(-50%, -20%);
-                filter: blur(0);
-            }
-
             #logo-svg {
                 width: 100%;
                 height: auto;
@@ -854,9 +860,6 @@
             #scrollToTopBtn {
                 bottom: 20px; /* Adjust distance from bottom */
                 right: 20px; /* Adjust distance from right */
-            }
-            #logo-container.scrolled-up {
-                transform: translate(-50%, -40%) translateY(-200px);
             }
         }
         /* Increase footer container width on desktop */
