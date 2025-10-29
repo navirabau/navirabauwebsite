@@ -755,8 +755,8 @@
                 width: 150%;
                 max-width: 580px;
                 height: auto;
-                left: 50%;
-                top: 40%;
+                left: 30%;
+                top: 25%;
                 opacity: 0;
                 filter: blur(15px);
                 transform: translate(-50%, -50%) translateY(-50px);
@@ -814,7 +814,7 @@
             }
 
             .header-container {
-                padding: 0 20px; /* Re-apply padding only for mobile */
+                padding: 0 20px;
             }
 
             .container {
@@ -824,7 +824,7 @@
             }
 
             .section-paragraph {
-                letter-spacing: -0.5px; /* It slightly reduces the letter spacing. */
+                letter-spacing: -0.5px;
             }
 
             /* Mobile devices: 1 column grid */
@@ -841,6 +841,16 @@
             #slogan {
                 font-size: 0.9em;
                 margin-top: 60%;
+            }
+
+            #logo-container {
+                left: 50%;
+                top: 40%;
+                transform: translate(-50%, -50%) translateY(-50px);
+            }
+
+            #logo-container.visible {
+                transform: translate(-50%, -25%);
             }
 
             #intro-section {
@@ -1418,10 +1428,8 @@
                     </div>
                     <div class="footer-links">
                         <nav>
-                            <a href="#:">Cookie-Einstellungen</a>
-                            <a href="#:">Datenschutzerklärung</a>
+                            <a href="#:">Impressum / Datenschutzerklärung</a>
                             <a href="#:">AGB</a>
-                            <a href="#:">Impressum</a>
                         </nav>
                     </div>
                 </div>
