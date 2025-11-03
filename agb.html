@@ -4,28 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Allgemeine Geschäftsbedingungen (AGB) – Navira Bau GmbH</title>
 
     <meta name="description" content="Allgemeine Geschäftsbedingungen (AGB) der Navira Bau GmbH, Berlin.">
 
-    <meta name="keywords"   content="AGB, Allgemeine Geschäftsbedingungen, Navira Bau GmbH, Berlin, Vertragsbedingungen, Datenschutz">
+    <meta name="keywords"
+        content="AGB, Allgemeine Geschäftsbedingungen, Navira Bau GmbH, Berlin, Vertragsbedingungen, Datenschutz">
 
     <meta name="author" content="Mahziar Jafarizadeh – Webdesigner, mahziarjafarizadeh.com">
 
-    <link rel="canonical" href="https://navirabau.com/">
+    <link rel="canonical" href="https://navirabau.com/agb.html">
 
 
     <link rel="icon" type="image/x-icon" href="https://navirabau.com/assets/favicon_ico.ico">
 
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="https://navirabau.com/assets/favicon_32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://navirabau.com/assets/favicon_32.png">
 
-    <link rel="icon" type="image/png" sizes="16x16"
-        href="https://navirabau.com/assets/favicon_16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://navirabau.com/assets/favicon_16.png">
 
-    <link rel="apple-touch-icon" sizes="180x180"
-        href="https://navirabau.com/assets/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://navirabau.com/assets/apple-touch-icon.png">
 
     <link rel="manifest" href="/site.webmanifest">
 
@@ -45,7 +43,7 @@
 
     <meta property="og:description" content="Allgemeine Geschäftsbedingungen (AGB) der Navira Bau GmbH, Berlin.">
 
-    <meta property="og:url" content="https://navirabau.com/">
+    <meta property="og:url" content="https://navirabau.com/agb.html">
 
     <meta property="og:image" content="https://navirabau.com/assets/Open%20Graph.jpg">
 
@@ -101,7 +99,7 @@
             }
         
     </script>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet">
@@ -125,7 +123,9 @@
             height: 100%;
         }
 
-        *, *::before, *::after {
+        *,
+        *::before,
+        *::after {
             box-sizing: border-box;
         }
 
@@ -133,14 +133,18 @@
         /* Header and Navigation Styles        */
         /* =================================== */
         #main-header {
-            background-color: #f5f5f5; /* Light gray background */
+            background-color: #f5f5f5;
+            /* Light gray background */
             padding: 15px 0;
-            position: fixed; /* Make header stay at the top */
+            position: fixed;
+            /* Make header stay at the top */
             top: 0;
             left: 0;
             width: 100%;
-            z-index: 900; /* Below scroll-to-top button but above content */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+            z-index: 900;
+            /* Below scroll-to-top button but above content */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            /* Optional subtle shadow */
         }
 
         .header-container {
@@ -165,7 +169,8 @@
             height: 50px;
             z-index: 951;
             position: relative;
-            margin-left: 20px; /* Space from the left edge */
+            margin-left: 20px;
+            /* Space from the left edge */
         }
 
         /* Style for the new character icon inside the button */
@@ -181,8 +186,10 @@
             font-size: 28px;
             color: #1d283c;
             line-height: 1;
-            transition: opacity 0.3s ease-in-out; /* Transition opacity */
-            position: absolute; /* Position icons on top of each other */
+            transition: opacity 0.3s ease-in-out;
+            /* Transition opacity */
+            position: absolute;
+            /* Position icons on top of each other */
             /* Centering handled by parent flexbox */
         }
 
@@ -195,23 +202,34 @@
         #menu-toggle.active .icon-char.hamburger {
             opacity: 0;
         }
+
         #menu-toggle.active .icon-char.close {
             opacity: 1;
         }
 
         /* Side Menu Panel */
         #side-menu {
-            position: absolute; /* Position relative to header container */
-            top: 130%; /* Position below the header */
+            position: absolute;
+            /* Position relative to header container */
+            top: 130%;
+            /* Position below the header */
             left: 0;
-            background-color: #f5f5f5; /* Light gray background */
-            transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Fade transition */
-            z-index: 890; /* Below header, above content */
-            box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3); /* Dropdown shadow */
-            border-radius: 0 0 0px 0px; /* Optional rounded bottom corners */
-            opacity: 0; /* Hidden by default */
-            visibility: hidden; /* Hidden by default */
-            min-width: 120px; /* Minimum width for the dropdown */
+            background-color: #f5f5f5;
+            /* Light gray background */
+            transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+            /* Fade transition */
+            z-index: 890;
+            /* Below header, above content */
+            box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+            /* Dropdown shadow */
+            border-radius: 0 0 0px 0px;
+            /* Optional rounded bottom corners */
+            opacity: 0;
+            /* Hidden by default */
+            visibility: hidden;
+            /* Hidden by default */
+            min-width: 120px;
+            /* Minimum width for the dropdown */
         }
 
         #side-menu.show {
@@ -232,7 +250,8 @@
         #side-menu a {
             display: block;
             padding: 15px 50px;
-            color: #1d283c; /* Blue text */
+            color: #1d283c;
+            /* Blue text */
             text-decoration: none;
             font-size: 1.1em;
             font-weight: 600;
@@ -240,8 +259,10 @@
         }
 
         #side-menu a:hover {
-            background-color: #1d283c; /* Blue background on hover */
-            color: #f5f5f5; /* Light text on hover */
+            background-color: #1d283c;
+            /* Blue background on hover */
+            color: #f5f5f5;
+            /* Light text on hover */
         }
 
         /* Add padding to the top of the body to prevent content from hiding behind fixed header */
@@ -287,98 +308,17 @@
             height: auto;
             display: block;
             position: absolute;
-            left: 26.5%; /* center horizontally */
-            top: 19%;  /* center vertically */
+            left: 26.5%;
+            /* center horizontally */
+            top: 19%;
+            /* center vertically */
             /* main change here: translateY(-50px) added to start a bit higher */
             transform: translate(0%, -30%) translateY(-50px);
-            opacity: 0;         /* start invisible */
-            filter: blur(15px); /* start blurred */
-            transition: all 1.5s ease-out;
-            transition-delay: 0.5s;
-        }
-
-        /* Logo animated state - controlled by JS */
-        #logo-container.visible {
-            /* Final state: Visible, clear, in original position */
-            opacity: 1;
-            transform: translateX(0);
-            filter: blur(0);
-            /* Override animation to use transitions */
-            animation: none;
-        }
-
-        /* Slogan styling and initial state */
-        #slogan {
-            color: #ffffff;
-            font-size: 1.2em;
-            font-weight: 400;
-            text-align: center;
-            /* Initial state for slogan */
             opacity: 0;
-            transform: translateY(30px);
-            filter: blur(0);
-            /* Transition for initial loading (controlled by .visible) */
-            transition: all 1.5s ease-out;
-            transition-delay: 0s;
-            margin-top: 150px;
-            max-width: 500px;
-            user-select: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-        }
-
-        /* Slogan animated state */
-        #slogan.visible {
-            /* Final state for slogan */
-            opacity: 1;
-            transform: translateY(0);
-            filter: blur(0);
-        }
-
-        /* Initial state for title and paragraph */
-        .section-title,
-        .section-paragraph,
-        .cta-title,
-        .cta-button {
-            opacity: 0;
+            /* start invisible */
             filter: blur(15px);
-            transition: opacity 1s ease-out, filter 1s ease-out;
-            /* Smooth transition */
-        }
-
-        /* State when visible after scroll (Title/Paragraph) */
-        .show-content {
-            opacity: 1;
-            filter: blur(0);
-        }
-
-        /* Initial state for service items (images and text) */
-        .service-item {
-            opacity: 0;
-            transform: scale(0.8);
-            /* Slightly zoomed out */
-            transition: opacity 1.5s ease-out, transform 1.5s ease-out;
-        }
-
-        /* State when visible after scroll (Zoom In to normal size) */
-        .service-item.show-content {
-            opacity: 1;
-            transform: scale(1);
-            /* Zoom in to original size */
-        }
-
-        /* Class for fade out on scroll */
-        #logo-container.scrolled-up {
-            transform: translateY(-200px);
-             opacity: 0;
-            filter: blur(10px);
-            transition-delay: 0s;
-        }
-
-        #slogan.scrolled-up {
-            transform: translateY(-200px);
-            opacity: 0;
-            filter: blur(10px);
+            /* start blurred */
+            transition: all 1.5s ease-out;
             transition-delay: 0.5s;
         }
 
@@ -401,140 +341,26 @@
             box-sizing: border-box;
         }
 
-        .section-title {
-            color: #1d283c;
-            text-align: center;
-            font-size: 3em;
-            /* Larger font size */
-            font-weight: 700;
-            /* Bolder font weight (bold) */
-            margin-bottom: 20px;
-        }
-
-        .section-paragraph {
-            color: #1d283c;
-            text-align: justify;
-            text-align-last: justify;
-            margin: 0 auto 40px;
-            max-width: 700px;
-            line-height: 1.6;
-            font-size: 1.1em;
-        }
-
-        /* Grid for Service Images (2 rows of 3) */
-        .image-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            /* 3 columns by default */
-            gap: 30px;
-            /* Space between items */
-            margin-top: 30px;
-        }
-
-        .service-item {
-            text-align: center;
-        }
-
-        .image-placeholder {
-            width: 100%;
-            padding-top: 60%;
-            /* Aspect ratio for images (e.g., 5:3) */
-            background-color: #cccccc;
-            /* Placeholder color for images */
-            border-radius: 0px;
-            margin-bottom: 10px;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        /* === Service Images === */ 
-        .image-grid .service-item:nth-child(1) .image-placeholder {
-            /* Address of the first image (Malerarbeiten) */
-            background-image: url('https://navirabau.com/photos/Malerarbeiten%20&%20Verputz.jpg');
-        }
-        .image-grid .service-item:nth-child(2) .image-placeholder {
-            /* Address of the second image (Trockenbau) */
-            background-image: url('https://navirabau.com/photos/Trockenbau%20&%20Innenausbau.jpg');
-        }
-        .image-grid .service-item:nth-child(3) .image-placeholder {
-            /* Address of the third image (Bodenverlegung) */
-            background-image: url('https://navirabau.com/photos/Bodenverlegung%20&%20Fliesenarbeiten.jpg');
-        }
-        .image-grid .service-item:nth-child(4) .image-placeholder {
-            /* Address of the fourth image (Montage) */
-            background-image: url('https://navirabau.com/photos/Kleinere%20Montage-%20und%20Reparaturarbeiten.jpg');
-        }
-        .image-grid .service-item:nth-child(5) .image-placeholder {
-            /* Address of the fifth image (Materialhandel) */
-            background-image: url('https://navirabau.com/photos/Materialhandel%20&%20Baukoordination.jpg');
-        }
-        .image-grid .service-item:nth-child(6) .image-placeholder {
-            /* Address of the sixth image (Modernisierung) */
-            background-image: url('https://navirabau.com/photos/Innenrenovierung%20&%20Modernisierung.jpg');
-        }
-
-        .service-title {
-            color: #1d283c;
-            font-size: 1em;
-            font-weight: 600;
-        }
-        
-        /* ------------------- CTA (Call to Action) STYLES ------------------- */
-        .cta-container {
-            text-align: center;   /* This line centers the button (and the title). */
-            margin-top: 60px;
-            margin-bottom: 20px;
-        }
-
-        .cta-title {
-            color: #1d283c;
-            font-size: 2em;
-            font-weight: 700;
-            line-height: 1.4;
-            margin-top: 80px;
-            margin-bottom: 40px;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;  /* This line centers the text inside the title. */
-        }
-
-        .cta-button {
-            display: inline-block;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 1.1em;
-            padding: 15px 35px;
-            border-radius: 0px; 
-            cursor: pointer;
-            transition: opacity 1s ease-out, filter 1s ease-out, background-color 0.3s ease-out, color 0.3s ease-out;
-
-            /* The website’s theme colors. */
-            background-color: #1d283c;
-            color: #f5f5f5;
-        }
-
-        .cta-button:hover {
-            background-color: #D9D9D9;
-            color: #1d283c;
-        }
-
         /* ------------------- FOOTER STYLES ------------------- */
         #site-footer {
             background-color: #1d283c;
-            color: #f5f5f5; /* main footer text color */
-            padding: 40px 0 40px 0; /* top and bottom padding */
+            color: #f5f5f5;
+            /* main footer text color */
+            padding: 40px 0 40px 0;
+            /* top and bottom padding */
             width: 100%;
             box-sizing: border-box;
-            font-size: 1em; /* slightly smaller text */
+            font-size: 1em;
+            /* slightly smaller text */
         }
 
         /* Main grid layout */
         .footer-grid {
             display: grid;
-            grid-template-columns: 1fr; /* single column */
-            gap: 10px; /* spacing between sections */
+            grid-template-columns: 1fr;
+            /* single column */
+            gap: 10px;
+            /* spacing between sections */
             align-items: start;
         }
 
@@ -542,7 +368,8 @@
         .footer-info {
             display: flex;
             flex-direction: column;
-            gap: 5px; /* spacing between logo, address, contact */
+            gap: 5px;
+            /* spacing between logo, address, contact */
             align-items: flex-start;
         }
 
@@ -571,13 +398,16 @@
         }
 
         /* Styling for the address link */
-        .address-item > a {
-            color: inherit; /* Inherit color from parent (.footer-info) */
-            text-decoration: none; /* Remove default underline */
+        .address-item>a {
+            color: inherit;
+            /* Inherit color from parent (.footer-info) */
+            text-decoration: none;
+            /* Remove default underline */
         }
 
-        .address-item > a:hover .footer-address {
-            text-decoration: underline; /* Underline address text on hover */
+        .address-item>a:hover .footer-address {
+            text-decoration: underline;
+            /* Underline address text on hover */
         }
 
         .contact-item a {
@@ -696,10 +526,10 @@
         }
 
         /* Remove old unused rules */
-            .footer-content,
-            .footer-center-stack,
-            .footer-left-placeholder,
-            .footer-social-links {
+        .footer-content,
+        .footer-center-stack,
+        .footer-left-placeholder,
+        .footer-social-links {
             display: none;
         }
 
@@ -707,54 +537,73 @@
         /* Scroll-to-top Button Styles */
         /* =================================== */
         #scrollToTopBtn {
-            display: none; /* Hidden by default */
-            position: fixed; /* Keep it in the viewport */
-            bottom: 90px; /* Distance from bottom */
-            right: 70px; /* Distance from right */
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Keep it in the viewport */
+            bottom: 90px;
+            /* Distance from bottom */
+            right: 70px;
+            /* Distance from right */
             z-index: 1000;
             border: none;
             outline: none;
-            background-color: #1d283c; /* Dark background to match footer */
+            background-color: #1d283c;
+            /* Dark background to match footer */
             cursor: pointer;
             padding: 10px;
-            border-radius: 0%; /* Make it circular */
+            border-radius: 0%;
+            /* Make it circular */
             width: 50px;
             height: 50px;
-            opacity: 0; /* Start invisible for fade-in effect */
-            transform: translateY(20px); /* Start slightly lower for slide-in effect */
-            transition: opacity 0.4s ease-out, transform 0.4s ease-out; /* Smooth transitions */
+            opacity: 0;
+            /* Start invisible for fade-in effect */
+            transform: translateY(20px);
+            /* Start slightly lower for slide-in effect */
+            transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+            /* Smooth transitions */
         }
 
         #scrollToTopBtn.visible {
-            display: block; /* Make it visible */
-            opacity: 0.3; /* 30% opacity as requested */
-            transform: translateY(0); /* Move to final position */
+            display: block;
+            /* Make it visible */
+            opacity: 0.3;
+            /* 30% opacity as requested */
+            transform: translateY(0);
+            /* Move to final position */
         }
 
         #scrollToTopBtn:hover {
-            opacity: 1; /* 100% opacity on hover */
+            opacity: 1;
+            /* 100% opacity on hover */
         }
 
         #scrollToTopBtn svg {
             width: 100%;
             height: 100%;
-            fill: #f5f5f5; /* SVG arrow color (light gray) */
+            fill: #f5f5f5;
+            /* SVG arrow color (light gray) */
         }
 
         /* Tooltip text styling */
         #scrollToTopBtn .tooltip-text {
-            visibility: hidden; /* Hidden by default */
-            width: 100px; /* Fixed width for the tooltip */
+            visibility: hidden;
+            /* Hidden by default */
+            width: 100px;
+            /* Fixed width for the tooltip */
             background-color: #1d283c;
             color: #fff;
             text-align: center;
             border-radius: 0px;
             padding: 5px 0;
-            position: absolute; /* Position relative to the button */
+            position: absolute;
+            /* Position relative to the button */
             z-index: 1;
-            bottom: 125%; /* Position above the button */
+            bottom: 125%;
+            /* Position above the button */
             left: 50%;
-            margin-left: -50px; /* Center the tooltip */
+            margin-left: -50px;
+            /* Center the tooltip */
             opacity: 0;
             transition: opacity 0.3s;
         }
@@ -792,7 +641,7 @@
             #logo-container.scrolled-up {
                 transform: translate(-50%, -40%) translateY(-200px);
             }
-    }
+        }
 
         @media (max-width: 600px) {
             .footer-bottom {
@@ -825,57 +674,12 @@
                 max-width: fit-content;
             }
 
-            .contact-item > div {
-            }
+            .contact-item>div {}
 
             .footer-social-single {
                 display: inline-flex;
                 align-items: center;
                 padding-top: 5px;
-            }
-
-            .header-container {
-                padding: 0 20px;
-            }
-
-            .container {
-                padding-left: 25px;
-                padding-right: 25px;
-                box-sizing: border-box;
-            }
-
-            .section-paragraph {
-                letter-spacing: -0.5px;
-            }
-
-            /* Mobile devices: 1 column grid */
-            .image-grid {
-                grid-template-columns: 1fr;
-                gap: 15px;
-            }
-
-            #logo-svg {
-                width: 100%;
-                height: auto;
-            }
-
-            #slogan {
-                font-size: 0.9em;
-                margin-top: 60%;
-            }
-
-            #logo-container {
-                left: 50%;
-                top: 40%;
-                transform: translate(-50%, -50%) translateY(-50px);
-            }
-
-            #logo-container.visible {
-                transform: translate(-50%, -25%);
-            }
-
-            #intro-section {
-                height: calc(100vh - 80px);
             }
 
             .footer-copyright {
@@ -889,27 +693,18 @@
 
             /* Increase spacing for scroll-to-top button on mobile */
             #scrollToTopBtn {
-                bottom: 20px; /* Adjust distance from bottom */
-                right: 20px; /* Adjust distance from right */
-            }
-
-            .section-title {
-                font-size: 1.7em; /* make the service section title smaller */
-                /* line-height: 1.3; */
-            }
-
-            .cta-title {
-                font-size: 1.4em; /* make the call-to-action section title smaller */
-                font-weight: 700;
-                line-height: 1.5;
-                margin-left: auto; 
-                margin-right: auto;
-                text-align-last: center;
+                bottom: 20px;
+                /* Adjust distance from bottom */
+                right: 20px;
+                /* Adjust distance from right */
             }
 
         }
+
         /* Increase footer container width on desktop */
-        @media (min-width: 900px) { /* Adjust breakpoint if needed */
+        @media (min-width: 900px) {
+
+            /* Adjust breakpoint if needed */
             #site-footer .container {
                 max-width: 1800px;
             }
@@ -923,7 +718,7 @@
             <button id="menu-toggle" aria-label="Menü öffnen/schließen" aria-expanded="false">
                 <span class="icon-char hamburger">☰</span>
                 <span class="icon-char close">✕</span>
-                </button>
+            </button>
             <nav id="side-menu">
                 <ul>
                     <li><a href="https://navirabau.com/index.html">Startseite</a></li>
@@ -938,9 +733,9 @@
     </header>
 
     <section id="services-section">
-            <div class="container">
-    
-                                    <style>
+        <div class="container">
+
+            <style>
                 /* Basic styling for the new content to match the site */
                 .agb-content {
                     color: #1d283c;
@@ -950,115 +745,119 @@
                     padding: 20px 0;
                     /* Add some padding */
                 }
-    
+
                 .agb-content h2 {
                     font-size: 2em;
                     font-weight: 700;
                     margin-top: 30px;
                     margin-bottom: 20px;
                 }
-    
+
                 .agb-content h3 {
                     font-size: 1.5em;
                     font-weight: 700;
                     margin-top: 25px;
                     margin-bottom: 15px;
                 }
-    
+
                 .agb-content p {
                     margin-bottom: 15px;
                     text-align: justify;
                 }
-    
+
                 .agb-content ul {
                     margin-left: 20px;
                     padding-left: 20px;
                     margin-bottom: 15px;
                     text-align: justify;
                 }
-    
+
                 .agb-content li {
                     margin-bottom: 8px;
                     text-align: justify;
                 }
             </style>
 
-                    <h2>Allgemeine Geschäftsbedingungen (AGB)</h2>
-                                            <p>
-                                                    <strong>Navira Bau GmbH</strong><br>
-                                                    Goethestraße 17<br>
-                                                    10625 Berlin<br>
-                                                    Geschäftsführung: Frau Fatemeh Yousefitala
-                                                </p>
+            <h2>Allgemeine Geschäftsbedingungen (AGB)</h2>
+            <p>
+                <strong>Navira Bau GmbH</strong><br>
+                Goethestraße 17<br>
+                10625 Berlin<br>
+                Geschäftsführung: Frau Fatemeh Yousefitala
+            </p>
 
-                                            <h3>§1 Geltungsbereich</h3>
-                                            <p>Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge, Lieferungen und
-                        Leistungen der Navira Bau GmbH gegenüber Auftraggebern (Privat- und Geschäftskunden).</p>
-                                            <p>Abweichende Bedingungen des Auftraggebers werden nicht anerkannt, es sei denn, die Navira Bau
-                        GmbH stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
+            <h3>§1 Geltungsbereich</h3>
+            <p>Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge, Lieferungen und
+                Leistungen der Navira Bau GmbH gegenüber Auftraggebern (Privat- und Geschäftskunden).</p>
+            <p>Abweichende Bedingungen des Auftraggebers werden nicht anerkannt, es sei denn, die Navira Bau
+                GmbH stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
 
-                                            <h3>§2 Vertragsabschluss</h3>
-                                            <p>Unsere Angebote sind freibleibend. Ein Vertrag kommt erst durch die schriftliche
-                        Auftragsbestätigung oder durch die tatsächliche Ausführung der Arbeiten durch die Navira Bau GmbH zustande.</p>
+            <h3>§2 Vertragsabschluss</h3>
+            <p>Unsere Angebote sind freibleibend. Ein Vertrag kommt erst durch die schriftliche
+                Auftragsbestätigung oder durch die tatsächliche Ausführung der Arbeiten durch die Navira Bau GmbH
+                zustande.</p>
 
-                                            <h3>§3 Leistungen</h3>
-                                            <p>Die Navira Bau GmbH erbringt Bau- und Handwerksleistungen nach den allgemein anerkannten
-                        Regeln der Technik und gemäß den vertraglich vereinbarten Leistungsbeschreibungen.</p>
-                                            <p>Änderungen oder Zusatzleistungen bedürfen der schriftlichen Zustimmung beider Parteien.</p>
+            <h3>§3 Leistungen</h3>
+            <p>Die Navira Bau GmbH erbringt Bau- und Handwerksleistungen nach den allgemein anerkannten
+                Regeln der Technik und gemäß den vertraglich vereinbarten Leistungsbeschreibungen.</p>
+            <p>Änderungen oder Zusatzleistungen bedürfen der schriftlichen Zustimmung beider Parteien.</p>
 
-                                            <h3>§4 Preise und Zahlung</h3>
-                                            <p>Alle Preise verstehen sich netto zuzüglich der jeweils geltenden gesetzlichen Mehrwertsteuer.
-                    </p>
-                                            <p>Rechnungen sind innerhalb von 14 Tagen nach Rechnungsdatum ohne Abzug zu zahlen, sofern keine
-                        andere Vereinbarung getroffen wurde.</p>
-                                            <p>Bei Zahlungsverzug ist die Navira Bau GmbH berechtigt, Verzugszinsen in gesetzlicher Höhe
-                        gemäß §288 BGB zu berechnen.</p>
+            <h3>§4 Preise und Zahlung</h3>
+            <p>Alle Preise verstehen sich netto zuzüglich der jeweils geltenden gesetzlichen Mehrwertsteuer.
+            </p>
+            <p>Rechnungen sind innerhalb von 14 Tagen nach Rechnungsdatum ohne Abzug zu zahlen, sofern keine
+                andere Vereinbarung getroffen wurde.</p>
+            <p>Bei Zahlungsverzug ist die Navira Bau GmbH berechtigt, Verzugszinsen in gesetzlicher Höhe
+                gemäß §288 BGB zu berechnen.</p>
 
-                                            <h3>§5 Haftung</h3>
-                                            <p>Die Haftung der Navira Bau GmbH richtet sich nach den gesetzlichen Vorschriften, soweit in
-                        diesen AGB nichts anderes bestimmt ist.</p>
-                                            <p>Für Schäden, die durch einfache Fahrlässigkeit verursacht wurden, haftet die Navira Bau GmbH
-                        nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten).</p>
-                                            <p>Die Haftung für Folgeschäden, entgangenen Gewinn oder sonstige Vermögensschäden ist
-                        ausgeschlossen, soweit gesetzlich zulässig.</p>
+            <h3>§5 Haftung</h3>
+            <p>Die Haftung der Navira Bau GmbH richtet sich nach den gesetzlichen Vorschriften, soweit in
+                diesen AGB nichts anderes bestimmt ist.</p>
+            <p>Für Schäden, die durch einfache Fahrlässigkeit verursacht wurden, haftet die Navira Bau GmbH
+                nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten).</p>
+            <p>Die Haftung für Folgeschäden, entgangenen Gewinn oder sonstige Vermögensschäden ist
+                ausgeschlossen, soweit gesetzlich zulässig.</p>
 
-                                            <h3>§6 Gewährleistung</h3>
-                                            <p>Es gelten die gesetzlichen Gewährleistungsrechte gemäß §§ 633 ff. BGB.</p>
-                                            <p>Mängel sind unverzüglich nach Entdeckung schriftlich anzuzeigen.</p>
-                                            <p>Die Gewährleistungsfrist für Bauleistungen beträgt 5 Jahre gemäß § 634a Abs. 1 Nr. 2 BGB,
-                        sofern nichts anderes vereinbart wurde.</p>
+            <h3>§6 Gewährleistung</h3>
+            <p>Es gelten die gesetzlichen Gewährleistungsrechte gemäß §§ 633 ff. BGB.</p>
+            <p>Mängel sind unverzüglich nach Entdeckung schriftlich anzuzeigen.</p>
+            <p>Die Gewährleistungsfrist für Bauleistungen beträgt 5 Jahre gemäß § 634a Abs. 1 Nr. 2 BGB,
+                sofern nichts anderes vereinbart wurde.</p>
 
-                                            <h3>§7 Rücktritt / Kündigung</h3>
-                                            <p>Der Auftraggeber kann vom Vertrag nur zurücktreten, wenn ein wichtiger Grund vorliegt oder
-                        die Navira Bau GmbH eine vereinbarte Leistung trotz angemessener Nachfrist nicht erbringt.</p>
-                                            <p>Im Falle eines Rücktritts oder einer Kündigung durch den Auftraggeber ist die Navira Bau GmbH
-                        berechtigt, die bis dahin erbrachten Leistungen sowie entstandene Kosten in Rechnung zu stellen.</p>
-                                            <p>Die Navira Bau GmbH ist berechtigt, den Vertrag aus wichtigem Grund zu kündigen, insbesondere
-                        wenn der Auftraggeber seine Mitwirkungspflichten verletzt oder sich in Zahlungsverzug befindet.</p>
+            <h3>§7 Rücktritt / Kündigung</h3>
+            <p>Der Auftraggeber kann vom Vertrag nur zurücktreten, wenn ein wichtiger Grund vorliegt oder
+                die Navira Bau GmbH eine vereinbarte Leistung trotz angemessener Nachfrist nicht erbringt.</p>
+            <p>Im Falle eines Rücktritts oder einer Kündigung durch den Auftraggeber ist die Navira Bau GmbH
+                berechtigt, die bis dahin erbrachten Leistungen sowie entstandene Kosten in Rechnung zu stellen.</p>
+            <p>Die Navira Bau GmbH ist berechtigt, den Vertrag aus wichtigem Grund zu kündigen, insbesondere
+                wenn der Auftraggeber seine Mitwirkungspflichten verletzt oder sich in Zahlungsverzug befindet.</p>
 
-                                            <h3>§8 Datenschutz</h3>
-                                            <p>Die Navira Bau GmbH verarbeitet personenbezogene Daten ihrer Kunden ausschließlich im Rahmen
-                        der gesetzlichen Bestimmungen der Datenschutz-Grundverordnung (DSGVO) sowie des Bundesdatenschutzgesetzes (BDSG).
-                    </p>
-                                            <p>Personenbezogene Daten (wie Name, Adresse, Telefonnummer, E-Mail-Adresse, Bankverbindung,
-                        Bauobjektdaten) werden nur erhoben, gespeichert und verarbeitet, soweit dies zur Begründung, Durchführung oder
-                        Beendigung eines Vertragsverhältnisses erforderlich ist.</p>
-                                            <p>Eine Weitergabe an Dritte erfolgt nur, wenn dies zur Vertragserfüllung notwendig ist (z. B.
-                        an Subunternehmer, Lieferanten oder Steuerberater) oder eine gesetzliche Verpflichtung besteht.</p>
-                                            <p>Kunden haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung oder Einschränkung der
-                        Verarbeitung ihrer personenbezogenen Daten gemäß Art. 15–20 DSGVO.<br>Anfragen hierzu können an info@navirabau.de
-                        gerichtet werden.</p>
-                                            <p>Weitere Informationen finden sich in der separaten Datenschutzerklärung auf unserer Website.
-                    </p>
+            <h3>§8 Datenschutz</h3>
+            <p>Die Navira Bau GmbH verarbeitet personenbezogene Daten ihrer Kunden ausschließlich im Rahmen
+                der gesetzlichen Bestimmungen der Datenschutz-Grundverordnung (DSGVO) sowie des
+                Bundesdatenschutzgesetzes (BDSG).
+            </p>
+            <p>Personenbezogene Daten (wie Name, Adresse, Telefonnummer, E-Mail-Adresse, Bankverbindung,
+                Bauobjektdaten) werden nur erhoben, gespeichert und verarbeitet, soweit dies zur Begründung,
+                Durchführung oder
+                Beendigung eines Vertragsverhältnisses erforderlich ist.</p>
+            <p>Eine Weitergabe an Dritte erfolgt nur, wenn dies zur Vertragserfüllung notwendig ist (z. B.
+                an Subunternehmer, Lieferanten oder Steuerberater) oder eine gesetzliche Verpflichtung besteht.</p>
+            <p>Kunden haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung oder Einschränkung der
+                Verarbeitung ihrer personenbezogenen Daten gemäß Art. 15–20 DSGVO.<br>Anfragen hierzu können an
+                info@navirabau.de
+                gerichtet werden.</p>
+            <p>Weitere Informationen finden sich in der separaten Datenschutzerklärung auf unserer Website.
+            </p>
 
-                                            <h3>§9 Gerichtsstand und anwendbares Recht</h3>
-                                            <p>Gerichtsstand für alle Streitigkeiten aus Vertragsverhältnissen zwischen den Parteien ist
-                        Berlin, sofern der Auftraggeber Kaufmann im Sinne des HGB ist.</p>
-                                            <p>Es gilt ausschließlich das Recht der Bundesrepublik Deutschland.</p>
+            <h3>§9 Gerichtsstand und anwendbares Recht</h3>
+            <p>Gerichtsstand für alle Streitigkeiten aus Vertragsverhältnissen zwischen den Parteien ist
+                Berlin, sofern der Auftraggeber Kaufmann im Sinne des HGB ist.</p>
+            <p>Es gilt ausschließlich das Recht der Bundesrepublik Deutschland.</p>
 
-            </div>
-    
-                    </div>
+        </div>
+
+        </div>
     </section>
 
     <footer id="site-footer">
@@ -1101,7 +900,8 @@
                                 		c0.84,2.38,1.27,4.02,1.27,4.94c0,1.2-0.49,2.02-1.48,2.48c-0.99,0.45-2.67,0.67-5.04,0.67c-0.7,0-1.19,0.12-1.48,0.38
                                 		c-0.28,0.25-0.45,0.86-0.52,1.83c0,0.64,0.16,1.19,0.48,1.65c0.32,0.44,0.79,0.67,1.42,0.67c4.48-0.21,8.82-0.31,13.02-0.31
                                 		c3.22,0,7.07,0.1,11.56,0.31C262.31,523.34,262.79,523.11,263.1,522.67z M214.93,497.48l11.12-27h0.31l10.62,27H214.93z" />
-                                <path class="st0" d="M331.13,456.4l-2.21,0.1c-3.79,0.14-6.35,0.21-7.69,0.21c-3.08,0-6.9-0.1-11.44-0.31
+                                <path class="st0"
+                                    d="M331.13,456.4l-2.21,0.1c-3.79,0.14-6.35,0.21-7.69,0.21c-3.08,0-6.9-0.1-11.44-0.31
                                 		c-0.57,0-1.02,0.23-1.33,0.69c-0.31,0.46-0.46,1-0.46,1.62c0.07,0.99,0.24,1.6,0.52,1.85c0.28,0.24,0.77,0.35,1.48,0.35h0.62
                                 		c1.89,0,3.23,0.16,4.04,0.48c0.8,0.31,1.21,0.95,1.21,1.94c0,0.62-0.21,1.54-0.62,2.73l-14.5,42.15h-0.31l-15.25-40.98
                                 		c-1.61-4.14-3.79-7.01-6.52-8.62c-2.72-1.61-6.71-2.42-11.96-2.42c-0.99,0-1.71,0.14-2.17,0.42c-0.46,0.28-0.69,0.84-0.69,1.69
@@ -1167,7 +967,8 @@
                                 		c0.11,0.15,0.27,0.23,0.48,0.23c1.47-0.07,2.9-0.1,4.27-0.1c1.05,0,2.32,0.03,3.79,0.1c0.19,0,0.34-0.08,0.44-0.23
                                 		c0.11-0.15,0.17-0.32,0.17-0.52c-0.02-0.33-0.07-0.53-0.17-0.6C241.18,581.35,241.02,581.31,240.8,581.31z M225.51,574.31
                                 		l3.65-8.83h0.1l3.48,8.83H225.51z" />
-                                <path class="st0" d="M275.12,560.85c-1.47,0.07-2.76,0.1-3.85,0.1c-1.08,0-2.38-0.03-3.88-0.1c-0.2,0-0.35,0.08-0.46,0.23
+                                <path class="st0"
+                                    d="M275.12,560.85c-1.47,0.07-2.76,0.1-3.85,0.1c-1.08,0-2.38-0.03-3.88-0.1c-0.2,0-0.35,0.08-0.46,0.23
                                 		c-0.1,0.14-0.15,0.31-0.15,0.52c0.01,0.33,0.07,0.54,0.17,0.62c0.11,0.07,0.27,0.1,0.48,0.1h0.21c0.84,0,1.44,0.1,1.79,0.29
                                 		c0.34,0.18,0.57,0.59,0.69,1.23c0.11,0.64,0.17,1.74,0.17,3.29v9.06c0,1.47-0.45,2.7-1.33,3.69c-0.88,0.97-2.37,1.46-4.48,1.46
                                 		c-2.17,0-3.62-0.54-4.38-1.62c-0.74-1.08-1.1-2.42-1.1-4v-10.75c0.03-0.61,0.07-1.09,0.15-1.44c0.08-0.34,0.3-0.63,0.65-0.85
@@ -1238,27 +1039,40 @@
                                 <polygon class="st0" points="281.84,34.78 280.34,225.21 278.86,415.65 284.8,415.65 	" />
                                 <polygon class="st0" points="193.97,415.66 193.97,411.66 193.9,411.66 192.49,332.85 191.01,250.04 189.52,332.85 188.11,411.66 
                                 		0,411.66 0,415.66 188.04,415.66 	" />
-                                <polygon class="st0" points="298.11,222.26 296.62,28.86 295.13,222.26 293.65,415.66 299.59,415.66 	" />
-                                <polygon class="st0" points="312.89,218.32 311.41,20.98 309.91,218.32 308.43,415.66 314.36,415.66 	" />
-                                <polygon class="st0" points="208.17,329.53 206.69,243.39 205.19,329.53 203.71,415.66 209.65,415.66 	" />
-                                <polygon class="st0" points="253.76,233.1 252.27,50.55 250.79,233.1 249.3,415.66 255.24,415.66 	" />
-                                <polygon class="st0" points="223.86,324.51 222.38,233.38 220.9,324.51 219.4,415.66 225.34,415.66 	" />
-                                <polygon class="st0" points="268.54,229.82 267.06,43.98 265.56,229.82 264.08,415.65 270.02,415.65 	" />
-                                <polygon class="st0" points="405.51,295.53 404.03,175.39 402.53,295.53 401.05,415.67 406.99,415.67 	" />
-                                <polygon class="st0" points="390.4,291.42 388.92,167.18 387.42,291.42 385.94,415.66 391.88,415.66 	" />
+                                <polygon class="st0"
+                                    points="298.11,222.26 296.62,28.86 295.13,222.26 293.65,415.66 299.59,415.66 	" />
+                                <polygon class="st0"
+                                    points="312.89,218.32 311.41,20.98 309.91,218.32 308.43,415.66 314.36,415.66 	" />
+                                <polygon class="st0"
+                                    points="208.17,329.53 206.69,243.39 205.19,329.53 203.71,415.66 209.65,415.66 	" />
+                                <polygon class="st0"
+                                    points="253.76,233.1 252.27,50.55 250.79,233.1 249.3,415.66 255.24,415.66 	" />
+                                <polygon class="st0"
+                                    points="223.86,324.51 222.38,233.38 220.9,324.51 219.4,415.66 225.34,415.66 	" />
+                                <polygon class="st0"
+                                    points="268.54,229.82 267.06,43.98 265.56,229.82 264.08,415.65 270.02,415.65 	" />
+                                <polygon class="st0"
+                                    points="405.51,295.53 404.03,175.39 402.53,295.53 401.05,415.67 406.99,415.67 	" />
+                                <polygon class="st0"
+                                    points="390.4,291.42 388.92,167.18 387.42,291.42 385.94,415.66 391.88,415.66 	" />
                                 <polygon class="st0" points="419.14,181.95 417.64,298.8 416.16,415.65 422.1,415.65 	" />
-                                <polygon class="st0" points="345.09,88.99 343.6,6.08 342.11,88.99 340.62,171.91 346.57,171.91 	" />
-                                <polygon class="st0" points="330.05,96.83 328.57,14.12 327.07,96.83 325.59,179.55 331.53,179.55 	" />
-                                <polygon class="st0" points="360.11,81.77 358.63,0 357.14,81.77 355.66,163.53 361.59,163.53 	" />
-                                <polygon class="st0" points="375.29,286.82 373.81,157.97 372.31,286.82 370.83,415.66 376.77,415.66 	" />
+                                <polygon class="st0"
+                                    points="345.09,88.99 343.6,6.08 342.11,88.99 340.62,171.91 346.57,171.91 	" />
+                                <polygon class="st0"
+                                    points="330.05,96.83 328.57,14.12 327.07,96.83 325.59,179.55 331.53,179.55 	" />
+                                <polygon class="st0"
+                                    points="360.11,81.77 358.63,0 357.14,81.77 355.66,163.53 361.59,163.53 	" />
+                                <polygon class="st0"
+                                    points="375.29,286.82 373.81,157.97 372.31,286.82 370.83,415.66 376.77,415.66 	" />
                                 <polygon class="st0" points="437.21,415.67 437.21,415.65 612.93,415.11 612.92,411.12 437.16,411.65 435.73,301.44 434.26,187.21 
                                 		432.77,301.44 431.34,411.67 431.29,411.67 431.3,414.93 431.29,415.67 	" />
                             </g>
                         </svg>
                     </div>
-                    
+
                     <div class="contact-item address-item">
-                        <svg class="contact-icon" id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 256 256">
+                        <svg class="contact-icon" id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1"
+                            viewBox="0 0 256 256">
                             <defs>
                                 <style>
                                     .st0 {
@@ -1266,35 +1080,41 @@
                                     }
                                 </style>
                             </defs>
-                            <path class="st0" d="M127.86,1.41c-48.68,0-88.28,39.6-88.28,88.28,0,13.54,2.99,26.53,8.92,38.7,8.16,16.39,32.06,56.78,57.36,99.55l12.32,20.84c2.02,3.42,5.7,5.52,9.68,5.52s7.66-2.1,9.68-5.52l12.31-20.83c25.13-42.48,48.87-82.61,57.19-99.22.08-.14.15-.29.22-.44,5.88-12.09,8.87-25.08,8.87-38.61C216.14,41.01,176.53,1.41,127.86,1.41ZM127.86,129.76c-23.81,0-43.19-19.37-43.19-43.18s19.38-43.19,43.19-43.19,43.18,19.37,43.18,43.19-19.37,43.18-43.18,43.18Z" />
+                            <path class="st0"
+                                d="M127.86,1.41c-48.68,0-88.28,39.6-88.28,88.28,0,13.54,2.99,26.53,8.92,38.7,8.16,16.39,32.06,56.78,57.36,99.55l12.32,20.84c2.02,3.42,5.7,5.52,9.68,5.52s7.66-2.1,9.68-5.52l12.31-20.83c25.13-42.48,48.87-82.61,57.19-99.22.08-.14.15-.29.22-.44,5.88-12.09,8.87-25.08,8.87-38.61C216.14,41.01,176.53,1.41,127.86,1.41ZM127.86,129.76c-23.81,0-43.19-19.37-43.19-43.18s19.38-43.19,43.19-43.19,43.18,19.37,43.18,43.19-19.37,43.18-43.18,43.18Z" />
                         </svg>
-                        <a href="https://maps.google.com/?q=Goethestraße+17,+10625+Berlin" target="_blank" rel="noopener noreferrer">
-                            <p class="footer-address" style="margin: 0;">Goethestraße 17<br>10625 Berlin,<br>Deutschland</p>
+                        <a href="https://maps.google.com/?q=Goethestraße+17,+10625+Berlin" target="_blank"
+                            rel="noopener noreferrer">
+                            <p class="footer-address" style="margin: 0;">Goethestraße 17<br>10625 Berlin,<br>Deutschland
+                            </p>
                         </a>
                     </div>
-                    
+
                     <div class="contact-item">
                         <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-                            <path class="st0" d="M74.31,55.17c-1.72,6-2.96,12.16-3.13,18.74-.18,6.6.72,13.69,3.24,21.49.2.57.56.93,1.01,1.13.68.31,1.59.39,2.57.39.77,0,1.85-.13,3.02-.31,4.6-.63,10.3-1.42,12.15,3.68.04.11.06.21.1.32l4.92,18.25c.02.06.03.13.03.18.47,2.58-.52,4.83-2.34,6.68-1.86,1.86-4.65,3.28-7.44,4.05-3.68,1.01-7.21.59-10.49-.65-3.16-1.16-6.09-3.04-8.74-5-4.15-3.09-7.21-6.83-9.62-11.37-2.34-4.44-4.03-9.6-5.46-15.66l-.1-.45c-.65-2.78-1.36-5.78-1.82-8.96-1.63-11.67-1.15-25.7,2.41-38.1,3.01-10.39,8.22-19.64,16.21-25.43,4.39-3.17,9.46-4.99,14.55-4.43,4.45.47,8.86,2.71,12.77,7.39.45.52.6,1.25.42,1.91l-5.13,19.99c-.32,2.49-1.58,4.02-3.58,4.83-1.64.65-3.68.72-6.03.34-.74-.06-1.57-.18-2.43-.33-2.87-.45-6.15-.95-7.14,1.33l.03-.06h0v.03Z" />
+                            <path class="st0"
+                                d="M74.31,55.17c-1.72,6-2.96,12.16-3.13,18.74-.18,6.6.72,13.69,3.24,21.49.2.57.56.93,1.01,1.13.68.31,1.59.39,2.57.39.77,0,1.85-.13,3.02-.31,4.6-.63,10.3-1.42,12.15,3.68.04.11.06.21.1.32l4.92,18.25c.02.06.03.13.03.18.47,2.58-.52,4.83-2.34,6.68-1.86,1.86-4.65,3.28-7.44,4.05-3.68,1.01-7.21.59-10.49-.65-3.16-1.16-6.09-3.04-8.74-5-4.15-3.09-7.21-6.83-9.62-11.37-2.34-4.44-4.03-9.6-5.46-15.66l-.1-.45c-.65-2.78-1.36-5.78-1.82-8.96-1.63-11.67-1.15-25.7,2.41-38.1,3.01-10.39,8.22-19.64,16.21-25.43,4.39-3.17,9.46-4.99,14.55-4.43,4.45.47,8.86,2.71,12.77,7.39.45.52.6,1.25.42,1.91l-5.13,19.99c-.32,2.49-1.58,4.02-3.58,4.83-1.64.65-3.68.72-6.03.34-.74-.06-1.57-.18-2.43-.33-2.87-.45-6.15-.95-7.14,1.33l.03-.06h0v.03Z" />
                         </svg>
                         <a href="tel:03040009270">030 40009270</a>
                     </div>
-                    
+
                     <div class="contact-item">
                         <svg class="contact-icon" version="1.1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 256 256"
                             enable-background="new 0 0 256 256" xml:space="preserve">
                             <g>
                                 <g>
-                                    <path fill="#f5f5f5" d="M171.3,10H84.8c-10.8,0-19.7,8.9-19.7,19.7v196.6c0,10.8,8.9,19.7,19.7,19.7h86.5c10.8,0,19.6-8.9,19.6-19.7V29.7C190.9,18.9,182.1,10,171.3,10 M116.2,25.7h23.6c2.2,0,3.9,1.8,3.9,3.9c0,2.2-1.7,4-3.9,4h-23.6c-2.2,0-3.9-1.8-3.9-4C112.3,27.5,114,25.7,116.2,25.7 M128,238.1c-6.5,0-11.8-5.3-11.8-11.8c0-6.5,5.3-11.8,11.8-11.8c6.5,0,11.8,5.3,11.8,11.8C139.8,232.8,134.6,238.1,128,238.1 M183.1,206.7H72.9V49.3h110.1V206.7L183.1,206.7z" />
+                                    <path fill="#f5f5f5"
+                                        d="M171.3,10H84.8c-10.8,0-19.7,8.9-19.7,19.7v196.6c0,10.8,8.9,19.7,19.7,19.7h86.5c10.8,0,19.6-8.9,19.6-19.7V29.7C190.9,18.9,182.1,10,171.3,10 M116.2,25.7h23.6c2.2,0,3.9,1.8,3.9,3.9c0,2.2-1.7,4-3.9,4h-23.6c-2.2,0-3.9-1.8-3.9-4C112.3,27.5,114,25.7,116.2,25.7 M128,238.1c-6.5,0-11.8-5.3-11.8-11.8c0-6.5,5.3-11.8,11.8-11.8c6.5,0,11.8,5.3,11.8,11.8C139.8,232.8,134.6,238.1,128,238.1 M183.1,206.7H72.9V49.3h110.1V206.7L183.1,206.7z" />
                                 </g>
                             </g>
                         </svg>
                         <a href="tel:+4917677290290">+49 176 77290290</a>
                     </div>
-                    
+
                     <div class="contact-item">
-                        <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            fill="currentColor">
                             <path
                                 d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
                         </svg>
@@ -1303,48 +1123,40 @@
                             <a href="mailto:Info@navirabau.com">Info@navirabau.com</a>
                         </div>
                     </div>
-                    
+
                     <div class="footer-social-single contact-item">
                         <a href="https://www.instagram.com/navirabau/" target="_blank" rel="noopener noreferrer"
                             aria-label="Besuchen Sie uns auf Instagram">
-                            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379 3.408 3.408 0 0 1 1.265.823 3.408 3.408 0 0 1 .823 1.265 6.087 6.087 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.087 6.087 0 0 1-.379 2.042 3.643 3.643 0 0 1-2.088 2.088 6.087 6.087 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.087 6.087 0 0 1-2.043-.379 3.408 3.408 0 0 1-1.264-.823 3.408 3.408 0 0 1-.823-1.265 6.087 6.087 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.087 6.087 0 0 1 .379-2.042 3.408 3.408 0 0 1 .823-1.265 3.408 3.408 0 0 1 1.265-.823 6.087 6.087 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.074 8.074 0 0 0-2.67.511 5.392 5.392 0 0 0-1.949 1.27 5.392 5.392 0 0 0-1.269 1.948 8.074 8.074 0 0 0-.51 2.67C1.012 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.074 8.074 0 0 0 .511 2.67 5.392 5.392 0 0 0 1.27 1.949 5.392 5.392 0 0 0 1.948 1.269 8.074 8.074 0 0 0 2.67.51C8.638 22.988 9.013 23 12 23s3.362-.013 4.535-.066a8.074 8.074 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.218 8.074 8.074 0 0 0 .51-2.67C22.988 15.362 23 14.987 23 12s-.013-3.362-.066-4.535a8.074 8.074 0 0 0-.511-2.67 5.392 5.392 0 0 0-1.27-1.949 5.392 5.392 0 0 0-1.948-1.269 8.074 8.074 0 0 0-2.67-.51C15.362 1.012 14.987 1 12 1Zm0 5.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Zm5.872-10.859a1.32 1.32 0 1 0 1.32 1.32 1.32 1.32 0 0 0-1.32-1.32Z" />
+                            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379 3.408 3.408 0 0 1 1.265.823 3.408 3.408 0 0 1 .823 1.265 6.087 6.087 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.087 6.087 0 0 1-.379 2.042 3.643 3.643 0 0 1-2.088 2.088 6.087 6.087 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.087 6.087 0 0 1-2.043-.379 3.408 3.408 0 0 1-1.264-.823 3.408 3.408 0 0 1-.823-1.265 6.087 6.087 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.087 6.087 0 0 1 .379-2.042 3.408 3.408 0 0 1 .823-1.265 3.408 3.408 0 0 1 1.265-.823 6.087 6.087 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.074 8.074 0 0 0-2.67.511 5.392 5.392 0 0 0-1.949 1.27 5.392 5.392 0 0 0-1.269 1.948 8.074 8.074 0 0 0-.51 2.67C1.012 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.074 8.074 0 0 0 .511 2.67 5.392 5.392 0 0 0 1.27 1.949 5.392 5.392 0 0 0 1.948 1.269 8.074 8.074 0 0 0 2.67.51C8.638 22.988 9.013 23 12 23s3.362-.013 4.535-.066a8.074 8.074 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.218 8.074 8.074 0 0 0 .51-2.67C22.988 15.362 23 14.987 23 12s-.013-3.362-.066-4.535a8.074 8.074 0 0 0-.511-2.67 5.392 5.392 0 0 0-1.27-1.949 5.392 5.392 0 0 0-1.948-1.269 8.074 8.074 0 0 0-2.67-.51C15.362 1.012 14.987 1 12 1Zm0 5.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Zm5.872-10.859a1.32 1.32 0 1 0 1.32 1.32 1.32 1.32 0 0 0-1.32-1.32Z" />
                             </svg>
                             <span>navirabau</span>
                         </a>
                     </div>
-                        </a>
-                    </div>
-                </div>
-    
-                <hr class="footer-divider">
-    
-                <div class="footer-bottom">
-                    <div class="footer-copyright">
-                        <p>© 2025 Navira Bau GmbH ― Alle Rechte vorbehalten</p>
-                    </div>
-                    <div class="footer-links">
-                        <nav>
-                            <a href="https://navirabau.com/impressum.html">Impressum / Datenschutzerklärung</a>
-                            <a href="https://navirabau.com/agb.html">AGB</a>
-                        </nav>
-                    </div>
+                    </a>
                 </div>
             </div>
+
+            <hr class="footer-divider">
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>© 2025 Navira Bau GmbH ― Alle Rechte vorbehalten</p>
+                </div>
+                <div class="footer-links">
+                    <nav>
+                        <a href="https://navirabau.com/impressum.html">Impressum / Datenschutzerklärung</a>
+                        <a href="https://navirabau.com/agb.html">AGB</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
         </div>
     </footer>
 
     <script>
-        history.scrollRestoration = 'manual';
-
-        // Function to check if an element is currently in the viewport
-        const isElementInViewport = (el, offset = 0.85) => {
-            const rect = el.getBoundingClientRect();
-            return (
-                rect.top <= (window.innerHeight || document.documentElement.clientHeight) * offset &&
-                rect.bottom >= 0
-            );
-        };
 
         // Function to handle scroll animations
         const handleScroll = () => {
@@ -1408,13 +1220,15 @@
     <!-- Scroll-to-top button -->
     <!-- =================================== -->
     <button id="scrollToTopBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
 
-            <polygon points="389.79 341.18 250 213.68 110.21 341.18 87.02 315.76 250 167.11 412.98 315.76 389.79 341.18" />
+            <polygon
+                points="389.79 341.18 250 213.68 110.21 341.18 87.02 315.76 250 167.11 412.98 315.76 389.79 341.18" />
 
         </svg>
-            <span class="tooltip-text">Nach oben</span>
+        <span class="tooltip-text">Nach oben</span>
     </button>
 
 </body>
+
 </html>
